@@ -16,5 +16,6 @@ export const DatetimeExample = ({ className }: DatetimeExampleProps) => {
         >
             <DatePicker className={styles.datepicker} timePrecision="minute" />
         </Example>
+        
     );
 };

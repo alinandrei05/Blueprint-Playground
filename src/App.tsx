@@ -15,7 +15,7 @@ function App() {
         <div className={styles.App}>
             <NavigationBar />
             <CoreExample />
-            <SelectExample />
+            <SelectExample key={null} />
             <DatetimeExample />
             <Popover2Example />
         </div>
