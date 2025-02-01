@@ -13,7 +13,7 @@ export interface SelectExampleProps {
 export const SelectExample = ({ className }: SelectExampleProps) => {
     const [film, setFilm] = useState<IFilm>(TOP_100_FILMS[0]);
     return (
-        <Example header="Select Example">
+        <Example header="Select Examplee">
             <Select2<IFilm>
                 items={TOP_100_FILMS}
                 itemPredicate={filterFilm}
